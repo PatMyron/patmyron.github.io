@@ -1593,7 +1593,7 @@ ul.nav-menu li:hover > ul,
 }
 
 /* Mobile (Portrait) */
-/*
+
 @media only screen and (max-width: 868px) {
 	.site-header .home-link,
 	.main-navigation,
@@ -1638,6 +1638,7 @@ ul.nav-menu li:hover > ul,
 		padding: 0 0 2.3rem;
 	}
 	// Small menu 
+	/*
 	.menu-toggle {
 		background-color: #303030;
 		color: #888;
@@ -1695,6 +1696,7 @@ ul.nav-menu li:hover > ul,
 	div.nav-menu > ul {
 		display: none;
 	}
+	*/
 	// Gallery 
 	.gallery {
 		margin-left: 0;
@@ -1732,7 +1734,7 @@ ul.nav-menu li:hover > ul,
 		width: 100%;
 	}
 }
-*/
+
 /* Retina-specific styles. */
 @media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
 only screen and (-moz-min-device-pixel-ratio: 1.5),
@@ -3423,7 +3425,7 @@ body.simple-homepage-experiment .simple-homepage {
 /**
  * Responsive CSS
  */
-/*
+
 @media screen and (max-width: 800px) {
 
 	.simple-homepage-experiment .or {
@@ -3457,4 +3459,3 @@ body.simple-homepage-experiment .simple-homepage {
 		margin-top: 50px;
 	}
 }
-*/
