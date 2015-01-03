@@ -1,9 +1,4 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.flex-header {
 	text-align: center !important;
 	font-weight: bold !important; 
 	padding-top: 10px !important;
