@@ -1,8 +1,8 @@
 .flex-header {
 	text-align: center !important;
 	font-weight: bold !important; 
-	padding-top: 10px !important;
-	padding-bottom: 30px !important;
+	/* padding-top: 10px !important;
+	padding-bottom: 30px !important; */
 	text-transform: uppercase !important; 
 	line-height: 48px !important;
 	font-size: 2em  !important;
@@ -20,6 +20,9 @@
 	justify-content: space-around;
 }
 
+.flex-item img {
+	max-height: 243px;
+}
 .flex-item {
 	background: #999;
 	border-radius: 16pt;
