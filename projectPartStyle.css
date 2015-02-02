@@ -51,3 +51,6 @@
 .aFlex {
 		color: steelblue;
 }
+.aFlex:hover {
+	color: blue;
+}
