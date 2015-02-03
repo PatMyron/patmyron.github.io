@@ -13,6 +13,12 @@
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>http://patmyron.com/wpial/</loc>
+  <lastmod>2015-01-23T01:27:56+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
   <loc>http://patmyron.com/resume.html</loc>
   <lastmod>2015-01-23T01:27:56+00:00</lastmod>
   <changefreq>daily</changefreq>
