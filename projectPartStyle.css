@@ -37,6 +37,7 @@
 }
 .flex-item iframe {
 	width: 95%;
+	height: auto;
 	max-height: 243px;
 }
 .flex-item {
