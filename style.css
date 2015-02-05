@@ -1,0 +1,13 @@
+ p.landingPic img {
+	width: 100%;
+	height: auto;
+	max-height: 550px;
+	max-width: 550px;
+	margin: 4%;
+ }
+  @media screen and (max-width: 600px) {
+  	p.landingPic img{
+  		padding: 4%;
+  		margin: 0;
+  	}
+  }
