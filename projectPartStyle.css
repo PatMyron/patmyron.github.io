@@ -35,6 +35,10 @@
 .flex-item img {
 	max-height: 243px;
 }
+.flex-item iframe {
+	width: 95%;
+	max-height: 243px;
+}
 .flex-item {
 	background: #c0c0c0;
 	border-radius: 16pt;
