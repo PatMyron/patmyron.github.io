@@ -17,8 +17,8 @@
   }
   div.vcard {
     margin-left: 700px;
-    padding-right: 1%;
-    padding-bottom: 2%;
-    padding-top: 11%;
+    padding-right: 1% !important;
+    padding-bottom: 2% !important;
+    padding-top: 11% !important;
   }
 }
