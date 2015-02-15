@@ -1,0 +1,4 @@
+# robots.txt for http://www.patmyron.com/
+
+User-agent: *
+Disallow: /wpial/data/ 
