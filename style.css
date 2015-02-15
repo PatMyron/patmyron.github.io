@@ -15,7 +15,7 @@
   p.landingPic {
     float: left;
   }
-  p.vCard {
+  div.vCard {
     margin-left: 700px;
     padding-right: 1%;
     padding-bottom: 2%;
