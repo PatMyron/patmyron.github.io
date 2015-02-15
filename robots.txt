@@ -2,3 +2,5 @@
 
 User-agent: *
 Disallow: /wpial/data/ 
+Disallow: /penguinPetReport.pdf
+Disallow: /campusMapReport.pdf
