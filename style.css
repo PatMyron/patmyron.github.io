@@ -27,3 +27,13 @@ img.resume {
   margin-left: auto;
   margin-right: auto;
 }
+h1.site-title {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h2.social {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
