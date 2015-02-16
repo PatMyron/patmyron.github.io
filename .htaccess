@@ -3,6 +3,7 @@ deny from all
 </Files>
 Redirect permanent http://patmyron.com/resume.html http://patmyron.com/resume
 Redirect permanent http://patmyron.com/projects.html http://patmyron.com/projects
+Redirect permanent http://patmyron.com/index.html http://patmyron.com
 order deny,allow
 
 RewriteEngine On
