@@ -1,0 +1,10 @@
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+</Files>
+Redirect permanent http://patmyron.com/resume.html http://patmyron.com/resume
+Redirect permanent http://patmyron.com/projects.html http://patmyron.com/projects
+order deny,allow
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
