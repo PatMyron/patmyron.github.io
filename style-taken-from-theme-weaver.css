@@ -944,23 +944,7 @@ ul.nav-menu li:hover > ul,
 		display: none;
 	}
 	*/
-	// Gallery 
-	.gallery {
-		margin-left: 0;
-	}
-	.gallery-caption {
-		display: none;
-	}
-	.gallery-columns-2 .gallery-item {
-		max-width: 49%;
-		max-width: -webkit-calc(50% - 4px);
-		max-width: calc(50% - 4px);
-	}
-	.gallery-columns-3 .gallery-item {
-		max-width: 33%;
-		max-width: -webkit-calc(33% - 4px);
-		max-width: calc(33% - 4px);
-	}
+	
 }
 
 // Mobile (Landscape) 
@@ -1042,187 +1026,11 @@ only screen and (min-device-pixel-ratio: 1.5) {
 
 
 /* Master container */
-#jp-post-flair {
-	padding-top: .5em;
-}
 
 
 /* Overall Sharedaddy block title */
-div.sharedaddy,
-#content div.sharedaddy,
-#main div.sharedaddy {
-	clear: both;
-}
-
-div.sharedaddy h3.sd-title {
-	margin: 0 0 1em 0;
-	display: inline-block;
-	line-height: 1.2;
-	font-size: 9pt;
-	font-weight: bold;
-}
-
-div.sharedaddy h3.sd-title:before {
-	content: "";
-	display: block;
-	width: 100%;
-	min-width: 30px;
-	border-top: 1px solid #ddd;
-	margin-bottom: 1em;
-}
-
-body.highlander-light h3.sd-title:before {
-	border-top: 1px solid rgba(0,0,0,.2);
-}
-
-body.highlander-dark h3.sd-title:before {
-	border-top: 1px solid rgba(255,255,255,.4);
-}
-
 
 /* Sharing services list */
-.sd-social-icon .sd-content ul li[class*='share-'].share-twitter a.sd-button {
-	background: #00acee;
-	color: #fff !important;
-}
-
-.sd-social-icon .sd-content ul li[class*='share-'].share-pinterest a.sd-button {
-	background: #ca1f27;
-	color: #fff !important;
-}
-
-.sd-social-icon .sd-content ul li[class*='share-'].share-digg a.sd-button {
-	color: #555555 !important;
-}
-
-.sd-social-icon .sd-content ul li[class*='share-'].share-press-this a.sd-button {
-	background: #1e8cbe;
-	color: #fff !important;
-}
-
-.sd-social-icon .sd-content ul li[class*='share-'].share-linkedin a.sd-button {
-	background: #0077b5;
-	color: #fff !important;
-}
-
-.sd-social-icon .sd-content ul li[class*='share-'].share-google-plus-1 a.sd-button {
-	background: #dd4b39;
-	color: #fff !important;
-}
-
-.sd-social-icon .sd-content ul li[class*='share-'].share-pocket a.sd-button {
-	background: #ee4056;
-	color: #fff !important;
-}
-
-.sd-social-icon .sd-content ul li[class*='share-'].share-reddit a.sd-button {
-	background: #cee3f8;
-	color: #555555 !important;
-}
-
-
-/**
- * Screen Reader Text for "Icon Only" option
- */
-
-.sharing-screen-reader-text {
-	clip: rect(1px, 1px, 1px, 1px);
-	position: absolute !important;
-	height: 1px;
-	width: 1px;
-	overflow: hidden;
-}
-
-.sharing-screen-reader-text:hover,
-.sharing-screen-reader-text:active,
-.sharing-screen-reader-text:focus {
-	background-color: #f1f1f1;
-	border-radius: 3px;
-	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
-	clip: auto !important;
-	color: #21759b;
-	display: block;
-	font-size: 14px;
-	font-weight: bold;
-	height: auto;
-	left: 5px;
-	line-height: normal;
-	padding: 15px 23px 14px;
-	text-decoration: none;
-	top: 5px;
-	width: auto;
-	z-index: 100000; /* Above WP toolbar */
-}
-
-
-/**
- * Sharing Email Dialog
- */
-
-#sharing_email {
-	width: 342px;
-	position: absolute;
-	z-index: 1001;
-	border: 1px solid #ccc;
-	padding: 15px;
-	background: #fff;
-	box-shadow: 0px 5px 20px rgba(0,0,0,.2);
-	text-align: left;
-}
-
-div.sharedaddy.sharedaddy-dark #sharing_email {
-	border-color: #fff;
-}
-
-#sharing_email .errors {
-	color: #fff;
-	background-color: #771a09;
-	font-size: 12px;
-	padding: 5px 8px;
-	line-height: 1;
-	margin: 10px 0 0 0;
-}
-
-#sharing_email label {
-	font-size: 12px;
-	color: #333;
-	font-weight: bold;
-	display: block;
-	padding: 0 0 4px 0;
-	text-align: left;
-	text-shadow: none;
-}
-
-#sharing_email form {
-	margin: 0;
-}
-
-#sharing_email input[type="text"], #sharing_email input[type="email"] {
-	width: 100%;
-	box-sizing: border-box;
-	-moz-box-sizing:border-box;
-	-webkit-box-sizing:border-box;
-	border: 1px solid #ccc;
-	margin-bottom: 1em;
-	background: #fff;
-	font-size: 12px;
-	color: #333;
-	max-width: none;
-	padding: 1px 3px;
-}
-
-#sharing_email .sharing_cancel {
-	padding: 0 0 0 1em;
-	font-size: 12px;
-	text-shadow: none;
-}
-
-#sharing_email .recaptcha {
-	width: 312px;
-	height: 123px;
-	margin: 0 0 1em 0;
-}
-
 /**
 
 	Genericons
@@ -1261,26 +1069,6 @@ div.sharedaddy.sharedaddy-dark #sharing_email {
  * All Genericons
  */
 
-.genericon {
-	font-size: 16px;
-	vertical-align: top;
-	text-align: center;
-	-moz-transition: color .1s ease-in 0;
-	-webkit-transition: color .1s ease-in 0;
-	display: inline-block;
-	font-family: "Genericons";
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	line-height: 1;
-	text-decoration: inherit;
-	text-transform: none;
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-font-smoothing: antialiased;
-	speak: none;
-}
-
-
 /**
  * Individual icons
  */
@@ -1288,48 +1076,6 @@ div.sharedaddy.sharedaddy-dark #sharing_email {
 /*
 	Global styles for WordPress.com
 */
-img.latex {
-	border: none;
-	vertical-align: middle;
-}
-.video-player {
-	border: 0;
-	margin: auto;
-	padding: 5px;
-	text-align: center;
-	max-width: 100%;
-}
-.wpvidavee_title {
-	font-family: Tahoma,Arial,sans-serif;
-	font-size: 10px;
-	font-weight: bold;
-	line-height: 12px;
-	padding: 2px 5px;
-	text-align: left;
-}
-.wpvidavee_footer {
-	font-family: Tahoma,Arial,sans-serif;
-	font-size: 9px;
-	line-height: 11px;
-	padding: 2px 5px;
-	text-align: right;
-}
-.wpvidavee_footer a {
-	text-decoration: none;
-}
-.wpvidavee_p {
-	color: red;
-}
-.hidden {
-	display: none;
-}
-.possibly-related {
-	clear: both;
-}
-.screen-reader-text {
-	position: absolute;
-	left: -1000em;
-}
 .comment object,
 .comment embed,
 .embed-vimeo iframe,
