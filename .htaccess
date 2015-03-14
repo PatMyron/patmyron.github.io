@@ -11,6 +11,12 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
 
 SetEnvIfNoCase Referer darodar.com spambot=yes
+SetEnvIfNoCase Referer o-o-6-o-o.com spambot2=yes
+SetEnvIfNoCase Referer humanorightswatch.org spambot3=yes
+SetEnvIfNoCase Referer bestwebsitesawards.com spambot4=yes
 Order allow,deny
 Allow from all
 Deny from env=spambot
+Deny from env=spambot2
+Deny from env=spambot3
+Deny from env=spambot4
