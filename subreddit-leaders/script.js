@@ -59,7 +59,7 @@ function addRow (cellOne, cellTwo, cellThree, cellFour) {
 	cell4.innerHTML = cellFour;
 }
 */
-function addRows () {
+function addRows () {	// ENTRY POINT
 	var subreddit = document.getElementById("myText").value;
 	var time = document.getElementById("time").value;
 	var type = document.getElementById("type").value;
