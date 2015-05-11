@@ -6,3 +6,4 @@ Disallow: /pdf/penguinPetReport.pdf
 Disallow: /pdf/campusMapReport.pdf
 Disallow: /wpial/index-test.html 
 Disallow: /index-test.html
+Disallow: *index-test.html*
