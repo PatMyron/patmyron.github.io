@@ -10,7 +10,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <script id="digits-sdk" src="https://cdn.digits.com/1/sdk.js" async></script>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<meta name="google-signin-client_id" content="561545959288-odb3skfkq5bo4uluae9hhj48p23c8g98.apps.googleusercontent.com">
+
+
 
 
 </head>
@@ -140,39 +143,18 @@
 </div>
 
 
-<!-- *****************************************************
-
-TWITTER TIME
 
 
-*****************************************************-->
-
-
-
+<div class="g-signin2" data-onsuccess="onSignIn"></div>
 <script type="text/javascript">
-document.getElementById('digits-sdk').onload = function() {
-  Digits.init({ consumerKey: 'A5b2WDoJ8XP5TckKkK3GNKiOT' });
-};
-function onLoginButtonClick(event){  
-  Digits.logIn()
-  .done(onLogin) /*handle the response*/
-  .fail(onLoginFailure);
-}
-function onLogin(loginResponse){   
-  // Send headers to your server and validate user by calling Digits’ API
-  var oAuthHeaders = loginResponse.oauth_echo_headers;
-  var verifyData = {
-    authHeader: oAuthHeaders['X-Verify-Credentials-Authorization'],
-    apiUrl: oAuthHeaders['X-Auth-Service-Provider']
-  };
-
-  $.post('/verify', verifyData)
-  .done(function(){ window.reload(); });
+function onSignIn(googleUser) {
+  var profile = googleUser.getBasicProfile();
+  console.log('ID: ' + profile.getId());
+  console.log('Name: ' + profile.getName());
+  console.log('Image URL: ' + profile.getImageUrl());
+  console.log('Email: ' + profile.getEmail());
 }
 </script>
-
-
-
 
 
 
