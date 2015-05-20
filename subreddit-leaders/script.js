@@ -15,12 +15,12 @@ function deleteRows () {
 function addRows () {	// ENTRY POINT     int main() lol
 	var subreddit = document.getElementById("myText").value;
 	var time = document.getElementById("time").value;
-	//  var type = document.getElementById("type").value;
+	var type = document.getElementById("type").value;
 	var url = "https://www.reddit.com/r/";
 	url += subreddit+"/top/?sort=top&t="+time;
 	map = new Array();
-	deleteRows();
-	var lim = 10000; // number of posts to get
+	deleteRows(); 
+	var lim = document.getElementById("myText2").value; // number of posts to get
 	reddit.top(subreddit).t(time).limit(lim).fetch(function(res) {
 		for(var i = 0; i < lim; i++) {
 			try {
@@ -38,7 +38,7 @@ function addRows () {	// ENTRY POINT     int main() lol
 			}
 			map[user] += score;
 		} 
-			
+
 		/************************************
 		IMPLEMENT A SORT BY VALUE
 		THAT PRESERVES THE SCORE (VALUE)
