@@ -1,7 +1,4 @@
 function addRow (cellOne, cellTwo) {
-	if (cellOne == "[deleted]") { // dont include
-		return;
-	}
 	var table = document.getElementById("myTable");
 	var row = table.insertRow(-1); // last row
 	var cell1 = row.insertCell(0);
@@ -29,6 +26,9 @@ function addRows () {	// ENTRY POINT     int main() lol
 			try {
 				user = res.data.children[i].data.author;
 				score = res.data.children[i].data.score;
+				if (user == "[deleted]") { // [deleted] == power user
+					continue;
+				}
 			}
 			catch(err) {
 				continue;
