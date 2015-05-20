@@ -1,5 +1,5 @@
 function addRows () {	// ENTRY POINT     int main() lol
-	var time0 = Date().getTime();
+	var time0 = new Date().getTime();
 	var subreddit = document.getElementById("myText").value;
 	var time = document.getElementById("time").value;
 	var type = document.getElementById("type").value;
@@ -37,7 +37,7 @@ function addRows () {	// ENTRY POINT     int main() lol
 			addRow(key, map[key]);
 		}
 	});
-	var timeF = Date().getTime();
+	var timeF = new Date().getTime();
 	console.log("0: "+time0);
 	console.log("F: "+timeF);
 	console.log("time: "+(timeF-time0));
