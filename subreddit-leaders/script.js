@@ -44,7 +44,7 @@ function addRows () {	// ENTRY POINT     int main() lol
 		THAT PRESERVES THE SCORE (VALUE)
 		**********************************/
 		var keysSorted = getSortedKeys(map);
-
+		console.log(keysSorted);
 		for (key in keysSorted) {
 			addRow(key, map[key]);
 		}
