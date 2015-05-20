@@ -37,17 +37,22 @@ function addRows () {	// ENTRY POINT     int main() lol
 				map[user] = 0;
 			}
 			map[user] += score;
-		} // loop printing 5 top posts' authors
+		} 
 		
 		/************************************
 		IMPLEMENT A SORT BY VALUE
 		THAT PRESERVES THE SCORE (VALUE)
 		**********************************/
+		var keysSorted = getSortedKeys(map);
 
-		for (key in map) {
+		for (key in keysSorted) {
 			addRow(key, map[key]);
 		}
 	});
+}
+function getSortedKeys(obj) {
+    var keys = []; for(var key in obj) keys.push(key);
+    return keys.sort(function(a,b){return obj[a]-obj[b]});
 }
 /*
 function addRow (cellOne, cellTwo, cellThree) {
