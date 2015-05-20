@@ -45,7 +45,9 @@ function addRows () {	// ENTRY POINT     int main() lol
 		**********************************/
 		var keysSorted = getSortedKeys(map);
 		console.log(keysSorted);
-		for (key in keysSorted) {
+
+		for (var i = 0; i < keysSorted.length; i++) {
+			var key = keysSorted[i];
 			addRow(key, map[key]);
 		}
 	});
