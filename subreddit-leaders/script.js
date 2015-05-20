@@ -1,18 +1,5 @@
-function addRow (cellOne, cellTwo) {
-	var table = document.getElementById("myTable");
-	var row = table.insertRow(-1); // last row
-	var cell1 = row.insertCell(0);
-	var cell2 = row.insertCell(1);
-	cell1.innerHTML = cellOne;
-	cell2.innerHTML = cellTwo;
-}
-function deleteRows () {
-	var table = document.getElementById("myTable");
-	for(var i = 1; i < table.rows.length; i += 0) { // DONT INCREMENT
-		table.deleteRow(i);
-	}
-}
 function addRows () {	// ENTRY POINT     int main() lol
+	var time0 = Date().getTime();
 	var subreddit = document.getElementById("myText").value;
 	var time = document.getElementById("time").value;
 	var type = document.getElementById("type").value;
@@ -50,6 +37,24 @@ function addRows () {	// ENTRY POINT     int main() lol
 			addRow(key, map[key]);
 		}
 	});
+	var timeF = Date().getTime();
+	console.log("0: "+time0);
+	console.log("F: "+timeF);
+	console.log("time: "+(timeF-time0));
+}
+function addRow (cellOne, cellTwo) {
+	var table = document.getElementById("myTable");
+	var row = table.insertRow(-1); // last row
+	var cell1 = row.insertCell(0);
+	var cell2 = row.insertCell(1);
+	cell1.innerHTML = cellOne;
+	cell2.innerHTML = cellTwo;
+}
+function deleteRows () {
+	var table = document.getElementById("myTable");
+	for(var i = 1; i < table.rows.length; i += 0) { // DONT INCREMENT
+		table.deleteRow(i);
+	}
 }
 function getSortedKeys(obj) {
     var keys = []; for(var key in obj) keys.push(key);
