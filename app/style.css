@@ -5,5 +5,4 @@ html {
     -o-background-size:cover;
     background-size:cover;
     opacity: 0.8;
-    filter: alpha(opacity=80); /* For IE8 and earlier */
 }
