@@ -102,7 +102,7 @@ a:focus {
 }
 a:active,
 a:hover {
-	color: #b00;
+	color: #AAA;
 	outline: 0;
 }
 a:hover {
@@ -931,4 +931,7 @@ img.resume {
 }
 .aFlex:hover {
   color: blue;
+}
+.fa-stack-2x {
+  color: #FFF;
 }
