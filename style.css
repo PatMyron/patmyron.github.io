@@ -903,7 +903,7 @@ img.resume {
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
 }
-.flex-item iframe, .aFlexPic {
+.flex-item iframe, .flex-item img {
   width: 100%;
   height: 340px;
 }
