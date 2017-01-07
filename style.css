@@ -910,7 +910,6 @@ img.resume {
 .flex-item iframe, .aFlexPic {
   width: 100%;
   height: auto;
-  max-height: 243px;
   height: 243px;
 }
 .flex-item {
