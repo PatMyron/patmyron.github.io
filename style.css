@@ -914,15 +914,9 @@ img.resume {
   height: 243px;
 }
 .flex-item {
-  background: #c0c0c0;
-  border-radius: 16pt;
-  padding: 5px;
+  background: #EEE;
   width: 450px;
-  height: 450px;
-  margin-top: 10px;
-  line-height: 25px !important;
-  color: white;
-  font-weight: bold !important; 
+  margin: 10px;
   font-size: 1.5em !important;
   text-align: center;
 }
