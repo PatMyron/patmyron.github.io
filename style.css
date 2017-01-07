@@ -907,14 +907,15 @@ img.resume {
 .flex-item img {
   max-height: 243px;
 }
-.flex-item iframe {
-  width: 95%;
+.flex-item iframe, .aFlexPic {
+  width: 100%;
   height: auto;
   max-height: 243px;
   height: 243px;
 }
 .flex-item {
-  background: #EEE;
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,.5);
+  background: #F8F8F8;
   width: 450px;
   margin: 10px;
   font-size: 1.5em !important;
