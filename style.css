@@ -199,8 +199,6 @@ img {
     vertical-align: middle;
 }
 
-/* 1.0.2 Clears and Formats
-------------------------------------------------------------- */
 /* 1.0.3 Forms
 ------------------------------------------------------------- */
 
@@ -220,14 +218,6 @@ img {
 :-ms-input-placeholder {
     color: #333;
 }
-
-/* 1.0.4 Assistive
-------------------------------------------------------------- */
-
-/*********************************** 2.0 Structure
------------------------------------------------ */
-/* 2.0.1 Layout
------------------------------------------------ */
 
 /* 2.0.2 Header
 ----------------------------------------------- */
@@ -249,36 +239,6 @@ img {
     text-transform: uppercase;
 }
 
-/* 2.0.3 Content
------------------------------------------------ */
-
-/* 2.0.4 Footer
------------------------------------------------ */
-
-/* 2.0.5 Sidebar
------------------------------------------------ */
-
-/* 2.0.6 Archives
------------------------------------------------ */
-
-/* 2.0.7 Search Results/No posts/404
------------------------------------------------ */
-
-/*************************************** 3.0 Posts
------------------------------------------------ */
-/* 3.0.1 Post Header
------------------------------------------------ */
-
-/* 3.0.2 Post Content
------------------------------------------------ */
-
-/* Page links */
-
-/* Mediaelements */
-
-/* 3.0.3 Post Footer
------------------------------------------------ */
-
 /************************************** 4.0 Images
 ----------------------------------------------- */
 embed,
@@ -288,11 +248,6 @@ video {
     max-width: 100%;
 }
 
-/* 4.0.1 Galleries
------------------------------------------------ */
-
-/* 4.0.2 Attachments
------------------------------------------------ */
 /********************************** 5.0 Navigation
 ----------------------------------------------- */
 /* 5.0.1 Site Navigation
@@ -382,21 +337,6 @@ ul.nav-menu li:hover > ul,
     width: 100%;
 }
 
-/* 5.0.2 Post/Paging Navigation
------------------------------------------------ */
-
-/************************************ 6.0 Comments
------------------------------------------------ */
-
-/************************************* 7.0 Widgets
------------------------------------------------ */
-
-/*************************** 9.0 Infinite Scroll
------------------------------------------------ */
-/* Globally hidden elements when Infinite Scroll is supported and in use. */
-
-/* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before */
-
 /****************************** 8.0 Media Queries
 ----------------------------------------------- */
 @media only screen and (min-width: 868px) and (max-width: 959px) {
@@ -424,12 +364,6 @@ ul.nav-menu li:hover > ul,
 @media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
 }
 
-/**
-	Noticons
-	Noticons are vector icons embedded in a font for use across wp.com.
-	To use, reference this stylesheet in your project. See instructions in example.html
-*/
-
 /* IE8 and below use EOT and allow cross-site embedding.
    IE9 uses WOFF which is base64 encoded to allow cross-site embedding.
    So unfortunately, IE9 will throw a console error, but it'll still work.
@@ -453,34 +387,6 @@ ul.nav-menu li:hover > ul,
     }
 }
 
-/**
- * All noticons
- */
-
-/**
- * Deprecated noticon names
- */
-
-/**
- * Sharedaddy Base Styles
- * 
- * Contains styles for modules, containers, buttons
- */
-
-/* Master container */
-
-/* Overall Sharedaddy block title */
-
-/* Sharing services list */
-/**
-	Genericons
-*/
-
-/* IE8 and below use EOT and allow cross-site embedding.
-   IE9 uses WOFF which is base64 encoded to allow cross-site embedding.
-   So unfortunately, IE9 will throw a console error, but it'll still work.
-   When the font is base64 encoded, cross-site embedding works in Firefox */
-
 @font-face {
     font-family: 'Genericons';
     src: url(/wp-content/mu-plugins/genericons/genericons/Genericons.eot);
@@ -502,17 +408,6 @@ ul.nav-menu li:hover > ul,
     }
 }
 
-/**
- * All Genericons
- */
-
-/**
- * Individual icons
- */
-
-/*
-	Global styles for WordPress.com
-*/
 .comment object,
 .comment embed,
 .embed-vimeo iframe,
