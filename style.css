@@ -413,69 +413,6 @@ ul.nav-menu li:hover > ul,
         padding-top: 35px;
         padding-top: 3.5rem;
     }
-
-// Small menu
-
-    /*
-    .menu-toggle {
-        background-color: #303030;
-        color: #888;
-        cursor: pointer;
-        display: inline-block;
-        font-family: Lato, sans-serif;
-        font-size: 11px;
-        font-size: 1.1rem;
-        font-weight: 400;
-        letter-spacing: 2px;
-        line-height: 1;
-        margin: 0;
-        padding: 12px 20px;
-        padding: 1.2rem 2rem;
-        text-transform: uppercase;
-    }
-    .toggled-on .nav-menu,
-    .toggled-on .nav-menu > ul {
-        display: block;
-        margin-left: 0;
-        padding: 0;
-        width: 100%;
-    }
-    .toggled-on li,
-    .toggled-on .children {
-        display: block;
-        float: none;
-    }
-    .toggled-on .nav-menu li > ul {
-        background-color: rgba(255, 255, 255, 0.05);
-        box-shadow: none;
-        display: block;
-        float: none;
-        left: auto;
-        margin-left: 20px;
-        opacity: 1;
-        position: relative;
-        top: auto;
-    }
-    .toggled-on .nav-menu li > ul a {
-        text-transform: uppercase;
-        width: auto;
-    }
-    .toggled-on .nav-menu li:hover > a,
-    .toggled-on .nav-menu .children a {
-        background-color: transparent;
-        color: #ccc;
-    }
-    .toggled-on .nav-menu li a:hover,
-    .toggled-on .nav-menu ul a:hover {
-        background-color: #303030;
-        color: #fff;
-    }
-    ul.nav-menu,
-    div.nav-menu > ul {
-        display: none;
-    }
-    */
-
 }
 
 /* Mobile (Landscape) */
