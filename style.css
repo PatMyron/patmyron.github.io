@@ -478,14 +478,8 @@ ul.nav-menu li:hover > ul,
 
 }
 
-/
-/
-Mobile
+/* Mobile (Landscape) */
 
-(
-Landscape
-
-)
 @media only screen and (min-width: 480px) and (max-width: 868px) {
 }
 
