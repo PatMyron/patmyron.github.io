@@ -451,7 +451,7 @@ p.landingPic img {
 
 /* resume */
 
-img.resume {
+.resume {
     display: block;
     margin-left: auto;
     margin-right: auto;
