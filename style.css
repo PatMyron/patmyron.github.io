@@ -6,16 +6,7 @@
     box-sizing: border-box;
 }
 
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-nav,
-section,
-summary {
+footer, header, nav {
     display: block;
 }
 
@@ -26,11 +17,7 @@ html {
     -ms-text-size-adjust: 100%;
 }
 
-html,
-button,
-input,
-select,
-textarea {
+html {
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
 }
 
@@ -55,8 +42,7 @@ a:focus {
     outline: thin dotted;
 }
 
-a:active,
-a:hover {
+a:active, a:hover {
     color: #AAA;
     outline: 0;
 }
@@ -66,8 +52,7 @@ a:hover {
     transition: all 0.3s;
 }
 
-h1,
-h2 {
+h1, h2 {
     clear: both;
     font-family: Lato, sans-serif;
     font-weight: bold;
@@ -87,9 +72,7 @@ p {
     margin: 0 0 2.3rem;
 }
 
-menu,
-ol,
-ul {
+menu, ul {
     margin: 1.6rem 0;
     padding: 0 0 0 4rem;
 }
@@ -98,13 +81,11 @@ ul {
     list-style-type: square;
 }
 
-nav ul,
-nav ol {
+nav ul, nav ol {
     list-style: none none;
 }
 
-li > ul,
-li > ol {
+li > ul, li > ol {
     margin: 0;
 }
 
@@ -142,8 +123,7 @@ img {
     position: relative;
 }
 
-ul.nav-menu,
-div.nav-menu > ul {
+ul.nav-menu, div.nav-menu > ul {
     margin: 0;
     /* padding: 0 40px 0 0;
     padding: 0 4rem 0 0; */
@@ -169,45 +149,32 @@ div.nav-menu > ul {
     transition: all 0.3s;
 }
 
-.nav-menu li:hover > a,
-.nav-menu li a:hover {
+.nav-menu li:hover > a, .nav-menu li a:hover {
     background-color: #303030;
     color: #fff;
     -webkit-transition: none;
     transition: none;
 }
 
-.nav-menu .sub-menu ul,
-.nav-menu .children ul {
+.nav-menu .sub-menu ul, .nav-menu .children ul {
     border-left: 0;
     left: 100%;
     top: 0;
 }
 
-ul.nav-menu ul a,
-.nav-menu ul ul a {
+ul.nav-menu ul a, .nav-menu ul ul a {
     margin: 0;
     text-transform: none;
     width: 200px;
 }
 
-ul.nav-menu ul a:hover,
-.nav-menu ul ul a:hover {
+ul.nav-menu ul a:hover, .nav-menu ul ul a:hover {
     background-color: #303030;
 }
 
-ul.nav-menu li:hover > ul,
-.nav-menu ul li:hover > ul {
+ul.nav-menu li:hover > ul, .nav-menu ul li:hover > ul {
     display: block;
     opacity: 1;
-}
-
-.nav-menu .current_page_item > a,
-.nav-menu .current_page_ancestor > a,
-.nav-menu .current-menu-item > a,
-.nav-menu .current-menu-ancestor > a {
-    background-color: #303030;
-    color: #fff;
 }
 
 #navbar {
@@ -219,8 +186,6 @@ ul.nav-menu li:hover > ul,
 /****************************** 8.0 Media Queries
 ----------------------------------------------- */
 
-/* Mobile (Portrait) */
-
 @media only screen and (max-width: 868px) {
     .site-title {
         font-size: 4rem;
@@ -228,16 +193,11 @@ ul.nav-menu li:hover > ul,
     }
 }
 
-.comment object,
-.comment embed,
-.embed-vimeo iframe,
 .embed-youtube iframe {
-    max-width: 100%; /* avoid videos being too wide */
+    max-width: 100%;
 }
 
-/*
-MY ORIGINAL ADDITIONS TO THE CSS
-*/
+/* MY ORIGINAL ADDITIONS TO THE CSS */
 
 h1.site-title {
     text-align: center;
@@ -249,8 +209,6 @@ h2.social {
     margin-right: auto;
     text-align: center;
 }
-
-/* landing page */
 
 p.landingPic img {
     width: 100%;
@@ -286,13 +244,9 @@ p.landingPic img {
     margin-right: auto;
 }
 
-/*  projects */
-
 .flex-header {
     text-align: center !important;
     font-weight: bold !important;
-    /* padding-top: 10px !important;
-    padding-bottom: 30px !important; */
     text-transform: uppercase !important;
     line-height: 48px !important;
     font-size: 2em !important;
