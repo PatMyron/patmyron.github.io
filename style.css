@@ -1,20 +1,6 @@
 /*
-Theme Name: Suits
 Theme URI: https://wordpress.com/themes/suits/
-Author: Theme Weaver
 Author URI: http://www.themeweaver.net/
-Description: For blogs and websites. Sleek design and solid code. Suits make you look good.
-Version: 1.0-wpcom
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: black, gray, white, dark, one-column, two-columns, fluid-layout, custom-background, custom-header, custom-menu, featured-images, full-width-template, microformats, infinite-scroll, post-formats
-Text Domain: suits
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
-*/
-
-/*--------------------------------------------------------------
->>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
 1.0 Global
 	1.0.1 Reset
@@ -117,11 +103,7 @@ a:hover {
 }
 
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2 {
     clear: both;
     font-family: Lato, sans-serif;
     font-weight: bold;
@@ -135,25 +117,6 @@ h1 {
 
 h2 {
     font-size: 2rem;
-}
-
-h3 {
-    font-size: 1.7rem;
-}
-
-h4 {
-    font-size: 1.5rem;
-}
-
-h5 {
-    font-size: 1.3rem;
-}
-
-h6 {
-    color: rgba(0, 0, 0, 0.45);
-    font-size: 1.3rem;
-    letter-spacing: 1px;
-    text-transform: uppercase;
 }
 
 p {
@@ -397,15 +360,7 @@ ul.nav-menu li:hover > ul,
 }
 
 /*
-========================================
-========================================
------------------------------------------
-
 MY ORIGINAL ADDITIONS TO THE CSS
-
------------------------------------------
-========================================
-========================================
 */
 
 h1.site-title {
@@ -449,15 +404,13 @@ p.landingPic img {
     }
 }
 
-/* resume */
-
 .resume {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-/*  projects part */
+/*  projects */
 
 .flex-header {
     text-align: center !important;
