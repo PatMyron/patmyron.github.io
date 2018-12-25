@@ -1,39 +1,3 @@
-/*
-Theme URI: https://wordpress.com/themes/suits/
-Author URI: http://www.themeweaver.net/
-----------------------------------------------------------------
-1.0 Global
-	1.0.1 Reset
-	1.0.2 Clears and Formats
-	1.0.3 Forms
-2.0 Structure
-  	2.0.1 Layout
-  	2.0.2 Header
-  	2.0.3 Content
-  	2.0.4 Footer
-  	2.0.5 Sidebar
-  	2.0.6 Archives
-  	2.0.7 Search Results/No Posts 404
-3.0 Posts
-  	3.0.1 Post Header
-  	3.0.2 Post Content
-  	3.0.3 Post Footer
-  	3.0.4 Lists
-	3.0.5 Tables
-4.0 Images
-	4.0.1 Galleries
-	4.0.2 Attachments
-5.0 Navigation
-	5.0.1 Site Navigation
-	5.0.2 Post/Paging Navigation
-6.0 Comments
-7.0 Widgets
-8.0 Media Queries
---------------------------------------------------------------*/
-
-/**************************************************** 1.0 Global
---------------------------------------------------------------*/
-
 /* 1.0.1 =Reset (http://git.io/normalize)
 ------------------------------------------------------------- */
 * {
@@ -150,26 +114,6 @@ img {
     vertical-align: middle;
 }
 
-/* 1.0.3 Forms
-------------------------------------------------------------- */
-
-/* Placeholder text color -- selectors need to be separate to work. */
-::-webkit-input-placeholder {
-    color: #333;
-}
-
-:-moz-placeholder {
-    color: #333;
-}
-
-::-moz-placeholder {
-    color: #333;
-}
-
-:-ms-input-placeholder {
-    color: #333;
-}
-
 /* 2.0.2 Header
 ----------------------------------------------- */
 .site-header {
@@ -197,8 +141,6 @@ video {
     max-width: 100%;
 }
 
-/********************************** 5.0 Navigation
------------------------------------------------ */
 /* 5.0.1 Site Navigation
 ----------------------------------------------- */
 .main-navigation {
@@ -285,9 +227,6 @@ ul.nav-menu li:hover > ul,
 
 /****************************** 8.0 Media Queries
 ----------------------------------------------- */
-@media only screen and (min-width: 868px) and (max-width: 959px) {
-
-}
 
 /* Mobile (Portrait) */
 
@@ -297,15 +236,6 @@ ul.nav-menu li:hover > ul,
         font-size: 4rem;
         padding-top: 3.5rem;
     }
-}
-
-/* Mobile (Landscape) */
-
-@media only screen and (min-width: 480px) and (max-width: 868px) {
-}
-
-/* Retina-specific styles. */
-@media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
 }
 
 /* IE8 and below use EOT and allow cross-site embedding.
