@@ -238,12 +238,6 @@ p.landingPic img {
     }
 }
 
-.resume {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .flex-header {
     text-align: center !important;
     font-weight: bold !important;
