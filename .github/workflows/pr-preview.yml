@@ -1,0 +1,23 @@
+name: PR preview
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/jekyll-build-pages@v1
+        with:
+          source: .
+          destination: ./_site
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pr-preview
+          path: ./_site
+          if-no-files-found: error
+          retention-days: 7
