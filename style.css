@@ -99,6 +99,7 @@ img {
 ----------------------------------------------- */
 .site-header {
     background-color: #000;
+    position: relative;
 }
 
 .site-title {
@@ -295,4 +296,51 @@ p.landingPic img {
 
 .fa-stack-2x {
     color: #FFF;
+}
+
+.github-corner svg {
+    border: 0;
+    color: #000;
+    fill: #fff;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.github-corner .octo-arm,
+.github-corner .octo-body {
+    fill: currentColor;
+}
+
+.github-corner .octo-arm {
+    transform-origin: 130px 106px;
+}
+
+.github-corner:hover .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+}
+
+@keyframes octocat-wave {
+    0%, 100% {
+        transform: rotate(0);
+    }
+
+    20%, 60% {
+        transform: rotate(-25deg);
+    }
+
+    40%, 80% {
+        transform: rotate(10deg);
+    }
+}
+
+@media (max-width: 500px) {
+    .github-corner:hover .octo-arm {
+        animation: none;
+    }
+
+    .github-corner .octo-arm {
+        animation: octocat-wave 560ms ease-in-out;
+    }
 }
